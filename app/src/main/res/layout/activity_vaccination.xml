@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f8ff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnRetourDeVacciner"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/house" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TxtNom"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/custome_nom_text_bg"
+                android:drawableLeft="@drawable/ic_prenom"
+                android:ems="10"
+                android:hint="@string/Nom"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Txtprenom"
+            android:layout_width="263dp"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="40dp"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="@drawable/custome_nom_text_bg"
+                android:drawableLeft="@drawable/ic_prenom"
+                android:ems="10"
+                android:hint="@string/Prenom"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Txtage"
+            android:layout_width="265dp"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:background="@drawable/custome_nom_text_bg"
+                android:drawableLeft="@drawable/ic_age"
+                android:ems="10"
+                android:hint="@string/Age"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Txttel"
+            android:layout_width="264dp"
+            android:layout_height="51dp"
+            android:layout_marginHorizontal="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:background="@drawable/custome_nom_text_bg"
+                android:drawableLeft="@drawable/ic_tel"
+                android:ems="10"
+                android:hint="@string/Téléphone"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtLieu"
+            android:layout_width="264dp"
+            android:layout_height="49dp"
+            android:layout_marginHorizontal="40dp"
+            app:errorEnabled="true">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:background="@drawable/custome_nom_text_bg"
+                android:drawableLeft="@drawable/ic_loc"
+                android:ems="10"
+                android:hint="@string/Lieu"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TxtVacc"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/custome_nom_text_bg"
+                android:drawableLeft="@drawable/ic_vaccination"
+                android:ems="10"
+                android:hint="@string/typevaccination"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonenrege"
+            android:layout_width="198dp"
+            android:layout_height="26dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custome_nom_text_bg"
+            android:onClick="confirmInput"
+            android:text="@string/Enregistrer" />
+    </LinearLayout>
+
+</LinearLayout>

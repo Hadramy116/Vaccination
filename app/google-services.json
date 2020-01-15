@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829573064188",
+    "firebase_url": "https://ahmedvaccim2.firebaseio.com",
+    "project_id": "ahmedvaccim2",
+    "storage_bucket": "ahmedvaccim2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829573064188:android:e7f7b974a3bf4602bd7e79",
+        "android_client_info": {
+          "package_name": "m2.iscae.mr.vaccfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829573064188-4vppv0ar9b8tn591spbrucso0j99pr1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "m2.iscae.mr.vaccfire",
+            "certificate_hash": "579b6ef0eab95a5e813680c6e8fed9912bd823e0"
+          }
+        },
+        {
+          "client_id": "829573064188-lj0jqa1gik05nhi0k74nm12jcks75etf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMn08qxlBCQBLtWbINUamBFKCSoSL8zk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829573064188-lj0jqa1gik05nhi0k74nm12jcks75etf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //nom de l'application
+    <string name="app_name">Vaccination</string>
+
+    //main activity
+
+    <string name="Vaccination">التطعيم</string>
+    <string name="Historique">الأرشيف</string>
+
+    //activity vactination
+
+    <string name="Nom">الاسم</string>
+    <string name="Prenom">الاسم العائلي</string>
+    <string name="Age">السن حسب الأشهر</string>
+    <string name="Téléphone">هاتف الوكيل</string>
+    <string name="Lieu">المكان</string>
+    <string name="typevaccination">نوع التطعيم</string>
+    <string name="Enregistrer">تسجيل</string>
+
+    <string name="Historique_locale">الفرعي</string>
+    <string name="Historique_distant">الكلي</string>
+
+</resources>

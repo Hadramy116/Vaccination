@@ -1,0 +1,25 @@
+<resources>
+    //nom du l'application
+    <string name="app_name">Campagne de Vaccination</string>
+
+    //main activity
+
+    <string name="Vaccination">Vaccination</string>
+    <string name="Historique">Historique</string>
+
+    //activity vactination
+
+    <string name="Nom">sidi</string>
+    <string name="Prenom">Prenom</string>
+
+    <string name="Age">Age par mois</string>
+    <string name="Téléphone">Téléphone parent</string>
+    <string name="Lieu">Lieu</string>
+    <string name="typevaccination">Type de Vaccination</string>
+    <string name="Historique_locale">Local</string>
+    <string name="Historique_distant">Distant</string>
+
+    <string name="Enregistrer">Enregistrer</string>
+
+
+</resources>
